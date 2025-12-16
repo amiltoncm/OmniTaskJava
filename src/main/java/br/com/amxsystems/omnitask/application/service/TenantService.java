@@ -5,6 +5,7 @@ import br.com.amxsystems.omnitask.domain.enums.TenantStatus;
 import br.com.amxsystems.omnitask.infra.repository.TenantRepository;
 import br.com.amxsystems.omnitask.common.error.DomainException;
 import lombok.RequiredArgsConstructor;
+import org.mapstruct.Mapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
